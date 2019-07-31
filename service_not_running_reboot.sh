@@ -7,6 +7,3 @@ echo "$service is running"
 else
 reboot
 fi
-
-# Just a test comment.
-# Just another test comment. 
