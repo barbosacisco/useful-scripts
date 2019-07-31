@@ -17,3 +17,5 @@ for ip in ip_addresses:
     else:
         print
         ip, 'is down'
+
+# Change IP Addresses according to your needs. Feel free to change the code to process a .txt file with IP Addresses for example.
