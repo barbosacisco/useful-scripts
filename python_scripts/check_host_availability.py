@@ -12,10 +12,6 @@ ip_addresses = [
 for ip in ip_addresses:
     response = os.system('ping -c 1 ' + ip)
     if response == 0:
-        print
-        ip, 'is up'
+        print('%s is up' % ip)
     else:
-        print
-        ip, 'is down'
-
-# Change IP Addresses according to your needs. Feel free to change the code to process a .txt file with IP Addresses for example.
+        print('%s is down' % ip)
